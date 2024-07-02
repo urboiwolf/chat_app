@@ -1,4 +1,4 @@
-import 'package:chat_app/features/auth/ui/Login_screen.dart';
+import 'package:chat_app/features/home/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,10 +11,11 @@ class ChatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const LoginScreen(),
+      home: const BottomNavBar(),
     );
   }
 }
