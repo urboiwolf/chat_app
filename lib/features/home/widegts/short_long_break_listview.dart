@@ -1,5 +1,5 @@
-import 'package:chat_app/features/home/widegts/shortLongBreak_item.dart';
 import 'package:chat_app/model/sections_model.dart';
+import 'package:chat_app/features/home/widegts/short_Long_Break_item.dart';
 import 'package:flutter/material.dart';
 
 class ShortLongBreakListView extends StatefulWidget {

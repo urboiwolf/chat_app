@@ -1,20 +1,12 @@
 import 'package:chat_app/core/constants/colors.dart';
 import 'package:chat_app/core/cubit/app_cubit.dart';
-import 'package:chat_app/features/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
-class BottomNavBar extends StatefulWidget {
+class BottomNavBar extends StatelessWidget {
   const BottomNavBar({super.key});
-
-  @override
-  State<BottomNavBar> createState() => _BottomNavBarState();
-}
-
-class _BottomNavBarState extends State<BottomNavBar> {
-  int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
